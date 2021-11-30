@@ -1,1 +1,34 @@
+1 kubectl get nodes - status of the nodes
 
+2 kubectl get pod
+
+3 kubectl get services
+
+4 kubectl create deployment NAME --image=image [--dry-run] [options]
+
+5 kubectl get deployments
+
+6 kubectl get replicaset
+
+
+7 kubectl edit deployment NAME
+
+8 kubectl log podname
+
+9 kubectl exec -it pdname
+
+10 kubectl delete deployment deploymentname
+
+11 kubectl apply -f <filename>
+
+12 kubectl describe podname
+
+13 kubectl get pod -o wide
+
+14 kubectl get deployment nginx-deployment -o yaml > nginx-deployment-result.yaml
+
+15 kubectl delete -f "<filename>"
+
+16 kubectl get all
+
+17 kubectl create namespace <namespace-name>
